@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Makipag-ugnayan sa Marquez Eatery para sa mga tanong at suhestiyon.">
+    <title>Contact | Marquez Eatery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body class="contact-page">
+    
+    
+    <header class="header">
+        <a href="#home" class="logo" aria-label="Marquez Eatery home">
+            <img src="cf549460-9e43-4b8b-85ea-778e38f6f900.jpg" alt="Marquez logo" class="logo-icon">
+            <span class="logo-name">Marquez<small>Eatery</small></span>
+        </a>
+
+
+        <nav class="navbar" aria-label="Pangunahing navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section section" id="contact">
+            <div class="section-heading">
+                <p class="tagline">KUMUSTA!</p>
+                <h1>Makipag-ugnayan <span>sa Amin</span></h1>
+                <p>May tanong o suhestiyon? Mag-message sa amin.</p>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h3>Marquez Eatery</h3>
+                   <h2> <p>📍 Address: brg.Bagong bayab Mauban Quezon</p></h2>
+                    <h2><p>📞 Telepono:09387802520></p></h2>
+                    <h2><p>facebook:"https://www.facebook.com/"</p></h2>
+                   <h2> <p>🕒 Oras ng pagbubukas: 8:00 AM – 8:00 PM</p></h2>
+                    <p>Masaya kaming makatulong sa iyong mga tanong at suhestiyon.</p>
+                    <a href="busness.html#home" class="btn">Bumalik sa Home</a>
+                </div>
+
+                <form id="contact-form">
+                    <label for="contact-name">name</label>
+                    <input type="text" id="contact-name" name="name"
+                           placeholder="Iyong pangalan" autocomplete="name" required>
+
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email"
+                           placeholder="Iyong email" autocomplete="email" required>
+
+                    <label for="contact-text">message</label>
+                    <textarea id="contact-text" name="message"
+                              placeholder="Isulat ang iyong mensahe" rows="4"
+                              required></textarea>
+
+                    <button type="submit" class="btn">Ipadala ang Mensahe</button>
+                    <p id="contact-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Marquez Eatery</h3>
+        <p>Masarap na pagkaing Pinoy, para sa lahat!</p>
+        <p>© 2026 Marquez Eatery | School Project</p>
+    </footer>
+
+</body>
+</html>

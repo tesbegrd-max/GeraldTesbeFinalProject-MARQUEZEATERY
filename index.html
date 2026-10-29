@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Masarap, sariwa, at abot-kayang lutong-bahay na pagkaing Pinoy sa Marquez Eatery.">
+    <title>Marquez Eatery | Lutong-Bahay na Pagkain</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+   <script src="javascript.js" defer></script>
+</head>
+<body>
+
+    
+    <header class="header">
+        <a href="#home" class="logo" aria-label="Marquez Eatery home">
+            <img src="cf549460-9e43-4b8b-85ea-778e38f6f900.jpg" alt="Marquez logo" class="logo-icon">
+            <span class="logo-name">Marquez<small>Eatery</small></span>
+        </a>
+
+        <nav class="navbar" aria-label="Pangunahing navigation">
+            <a href="#home" aria-current="page">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="#cart" class="cart-link">
+            🛒 Cart <span id="cart-count">0</span>
+        </a>
+    </header>
+
+    <main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO MARQUEZ EATERY</p>
+            <h1>Sarap ng Lutong-Bahay,<br>
+                <span>Presyong Abot-Kaya!</span>
+            </h1>
+
+            <p>
+                Tikman ang paboritong pagkaing Pinoy.
+                Sariwa, masarap, at handang ihain para sa iyo!
+            </p>
+
+            <a href="menu.html#menu" class="btn"> Menu ↓</a>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about-image">
+        <img
+                src="adobo.jpg"
+                alt="Masarap na lutong-bahay na pagkain">
+        </div>
+
+        <div class="about-content">
+        <p class="tagline">TUNGKOL SA AMIN</p>
+        <h2>Pagkaing Pinoy na <span>Parang Nasa Bahay!</span></h2>
+
+        <p>
+            Ang Marquez Eatery ay isang negosyong naglalayong
+            maghatid ng masarap, malinis, at abot-kayang pagkain
+            para sa bawat customer.
+        </p>
+
+        <p>
+            Dito, bawat putahe ay may lasang Pinoy at
+            pagmamahal na parang sariling lutong-bahay.
+        </p>
+
+        <a href="#contact" class="btn">Makipag-ugnayan</a>
+        </div>
+    </section>
+
+    
+    <section class="menu-section section" id="menu">
+        <div class="section-heading">
+        <p class="tagline">LASANG PINOY</p>
+        <h2>Ang Aming <span>Menu</span></h2>
+        <p>Pumili ng iyong paboritong pagkain at idagdag sa cart!</p>
+        </div>
+
+        <div class="menu-container">
+
+        <div class="food-card">
+            <img src="dinuguan.jpg"
+                alt="Dinuguan">
+            <div class="food-info">
+            <h3>Dinuguan</h3>
+            <p>Klasikong Dinuguan Pinoy na may kanin.</p>
+            <div class="food-bottom">
+            <strong>₱60.00</strong>
+            <button type="button" class="add-btn" data-id="1">+ Add to Cart</button>
+            </div>
+            </div>
+            </div>
+
+        <div class="food-card">
+            <img src="igado.jpg"
+            alt="Igado">
+            <div class="food-info">
+            <h3>Igado</h3>
+            <p>igado swak sa budget at masarap na sahog.</p>
+            <div class="food-bottom">
+            <strong>₱50.00</strong>
+            <button type="button" class="add-btn" data-id="2">+ Add to Cart</button>
+            </div>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="lechon paksiw.jpg"
+                     alt="lechon paksiw">
+                <div class="food-info">
+                <h3>Lechon Paksiw</h3>
+                <p>malinamnam at tama sa asim.</p>
+                <div class="food-bottom">
+                <strong>₱60.00</strong>
+                        <button type="button" class="add-btn" data-id="3">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="binagoongan.jpg"
+                     alt="binagoongan">
+                <div class="food-info">
+                    <h3>Binagoongan Meal</h3>
+                    <p>masarap na binagoongan na may mainit na kanin.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="4">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="chopsuey.jpg"
+                     alt="Fresh Vegetable Dish">
+                <div class="food-info">
+                    <h3>Chopsuey</h3>
+                    <p>Masustansiyang gulay na may masarap na sarsa.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="5">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="giniling.jpg"
+                     alt="giniling">
+                <div class="food-info">
+                    <h3>Giniling</h3>
+                    <p>Simple, masarap, at sulit na pagkain.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="6">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="goto mami.jpg" alt="Goto Mami">
+                <div class="food-info">
+                    <h3>Goto Mami</h3>
+                    <p>Mainit at malasang goto mami, pampabusog at pampainit ng tiyan.</p>
+                    <div class="food-bottom">
+                        <strong>₱70.00</strong>
+                        <button type="button" class="add-btn" data-id="7">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cart-section section" id="cart">
+        <div class="section-heading">
+            <p class="tagline">IYONG ORDER</p>
+            <h2>Shopping <span>Cart</span></h2>
+            <p>Suriin ang iyong mga napiling pagkain bago mag-order.</p>
+        </div>
+
+        <div class="cart-box">
+            <div id="cart-items">
+                <p class="empty-cart">Wala pang laman ang iyong cart.</p>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Total: <span id="cart-total">₱0.00</span></h3>
+                <button type="button" id="clear-cart" class="clear-btn">Clear Cart</button>
+                <button type="button" id="checkout-btn" class="btn checkout-btn">
+                    Place Order
+                </button>
+            </div>
+
+            <p id="cart-message" class="message" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+        <div class="section-heading">
+            <p class="tagline">KUMUSTA!</p>
+            <h2>Makipag-ugnayan <span>sa Amin</span></h2>
+            <p>May tanong o suggestion? Mag-message sa amin.</p>
+        </div>
+
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Marquez Eatery</h3>
+                <p>📍 Address:BRG.Bagongbayan Mauban Quezon</p>
+                <p>📞 Telepono:09387802520</p>
+                <p>facebook: "https://www.facebook.com/"</p>
+                <p>🕒 Oras ng pagbubukas: 8:00 AM – 8:00 PM</p>
+                <p>Masaya kaming makatulong sa iyong mga tanong at suhestiyon.</p>
+            </div>
+
+            <form id="contact-form">
+                <label for="contact-name">Pangalan</label>
+                <input type="text" id="contact-name"
+                       name="name" autocomplete="name" placeholder="Iyong pangalan" required>
+
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email"
+                       name="email" autocomplete="email" placeholder="Iyong email" required>
+
+                <label for="contact-text">Mensahe</label>
+                <textarea id="contact-text"
+                          name="message" placeholder="Isulat ang iyong mensahe" rows="4"
+                          required></textarea>
+
+                <button type="submit" class="btn">Ipadala ang Mensahe</button>
+                <p id="contact-message" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer-brand">
+            <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <circle cx="24" cy="24" r="23" fill="currentColor"/>
+                <path d="M17 15c-2-2 1-3 0-6m7 6c-2-2 1-3 0-6m7 6c-2-2 1-3 0-6"
+                      fill="none" stroke="#f2bd57" stroke-linecap="round" stroke-width="2.2"/>
+                <path d="M12 23h24c-.7 6.3-5.5 11-12 11s-11.3-4.7-12-11Z"
+                      fill="#f2bd57"/>
+                <path d="M12 23h24M18 37h12"
+                      fill="none" stroke="#fffaf3" stroke-linecap="round" stroke-width="2.2"/>
+            </svg>
+            <span>Marquez Eatery</span>
+        </h3>
+        <p>Masarap na pagkaing Pinoy, para sa lahat!</p>
+        <p>© 2026 Marquez Eatery | School Project</p>
+    </footer>
+
+</body>
+</html>
